@@ -30,17 +30,25 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Fall of Robespierre</dc:title>
 		<meta property="file-as" refines="#title">Fall of Robespierre, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">An Historic Drama</dc:title>
+		<meta property="file-as" refines="#subtitle">Historic Drama, An</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Fall of Robespierre: An Historic Drama</dc:title>
+		<meta property="file-as" refines="#fulltitle">The Fall of Robespierre</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">English poetry -- 19th century</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85043937</meta>
-		<meta property="schema:genre">TAG</meta>
-		<meta property="schema:abstract">DESCRIPTION</meta>
+		<meta property="schema:genre">Drama</meta>
+		<meta property="schema:abstract">A poetic drama depicting the final days of Maximilien Robespierre.</meta>
 		<dc:description>
-			LONG_DESCRIPTION
+			&lt;p&gt;Maximilien Robespierre has risen to prominence within the new French National Convention. A radical Jacobin, he oversaw the draconian policies of the “Reign of Terror,” including mass arrests and summary executions. Increasingly, he fears a conspiracy is afoot, which will eventually turn the Convention, and the very policies he championed, against him and his allies.&lt;/p&gt;
+			&lt;p&gt;Set during the final days of Maximilien Robespierre, &lt;a href="https://standardebooks.org/ebooks/samuel-taylor-coleridge"&gt;Samuel Taylor Coleridge&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/robert-southey"&gt;Robert Southey&lt;/a&gt; wrote this poetic drama less than three months after Robespierre was executed at the guillotine in the Place de la Révolution.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/29090</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/completepoetical02cole</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Fall_of_Robespierre" rel="schema:sameAs"/>
@@ -49,36 +57,42 @@
 		<link href="https://github.com/standardebooks/samuel-taylor-coleridge_robert-southey_the-fall-of-robespierre" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author-1">Samuel Taylor Coleridge</dc:creator>
 		<meta property="file-as" refines="#author-1">Coleridge, Samuel Taylor</meta>
-		<meta property="schema:alternateName" refines="#author-1">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge" refines="#author-1" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n78095462.html" refines="#author-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">dto</meta>
 		<dc:creator id="author-2">Robert Southey</dc:creator>
 		<meta property="file-as" refines="#author-2">Southey, Robert</meta>
-		<meta property="schema:alternateName" refines="#author-2">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://en.wikipedia.org/wiki/Robert_Southey" refines="#author-2" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80004250.html" refines="#author-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="editor">Ernest Hartley Coleridge</dc:contributor>
+		<meta property="file-as" refines="#editor">Coleridge, Ernest Hartley</meta>
+		<link href="https://en.wikipedia.org/wiki/Ernest_Hartley_Coleridge" refines="#editor" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50029090.html" refines="#editor" rel="schema:sameAs"/>
+		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edc</meta>
+		<dc:contributor id="artist">Charles Thévenin</dc:contributor>
+		<meta property="file-as" refines="#artist">Thévenin, Charles</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_Th%C3%A9venin" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no2025035282.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">Jonathan Ingram</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Ingram, Jonathan</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Lisa Reigel</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Reigel, Lisa</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
+		<dc:contributor id="transcriber-3">Michael Zeug</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Zeug, Michael</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-4" rel="schema:url"/>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">C. B. Bowman</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Bowman, C. B.</meta>
+		<link href="https://github.com/cbbowman" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
